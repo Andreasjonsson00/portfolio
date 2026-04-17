@@ -6,7 +6,7 @@ const Featured = () => {
     <section id="featured" className="mt-5 px-4 scroll-mt-35">
       <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-10 border-b border-[#2e303a] pb-20">
         <div className="flex-1">
-          <h2 className="text-2xl md:text-3xl font-bold mb-4 underline">
+          <h2 className="text-2xl md:text-3xl font-bold mb-4">
             Featured Project
           </h2>
 

@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <header className="header flex items-center justify-between p-5 border-b border-[#2e303a]">
+    <header className="flex items-center justify-between p-5 border-b border-[#2e303a]">
       <h2 className="ml-5">My Portfolio</h2>
 
       <nav>
@@ -20,16 +20,35 @@ const Header = () => {
           } flex-col absolute top-16 right-5 bg-[#1a1a1a] p-4 rounded gap-4 md:flex md:flex-row md:static md:bg-transparent md:p-0`}
         >
           <li>
-            <a href="#about" className="transition duration-200 hover:text-blue-700">About</a>
+            <a
+              href="#about"
+              className="transition duration-200 hover:text-blue-700"
+            >
+              About
+            </a>
           </li>
           <li>
-            <a href="#featured" className="transition duration-200 hover:text-blue-700">Projects</a>
+            <a
+              href="#featured"
+              className="transition duration-200 hover:text-blue-700"
+            >
+              Projects
+            </a>
           </li>
           <li>
-            <a href="#contact" className="transition duration-200 hover:text-blue-700">Contact</a>
+            <a
+              href="#contact"
+              className="transition duration-200 hover:text-blue-700"
+            >
+              Contact
+            </a>
           </li>
           <li className="border border-[#2e303a] rounded px-2 transition duration-200 hover:border-blue-700">
-            <a href="/Andreas_Jonsson_Roslund_CV.pdf" download className="transition duration-200 hover:text-blue-700">
+            <a
+              href="/Andreas_Jonsson_Roslund_CV.pdf"
+              download
+              className="transition duration-200 hover:text-blue-700"
+            >
               Download CV
             </a>
           </li>

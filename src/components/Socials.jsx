@@ -7,14 +7,14 @@ const Socials = () => {
   return (
     <nav className="social-links flex gap-4 mt-3">
       <a
-        className="github-link flex flex-col items-center transition transform hover:scale-130 hover:opacity-80 duration-200"
+        className="flex flex-col items-center transition duration-300 ease-out hover:scale-[1.3] hover:opacity-80"
         href="https://github.com/Andreasjonsson00"
         target="_blank"
       >
         <img className="github-icon w-6" src={githubImg} alt="GitHub Icon" />
       </a>
       <a
-        className="email-link flex flex-col items-center transition transform hover:scale-130 hover:opacity-80 duration-200"
+        className="flex flex-col items-center transition duration-300 ease-out hover:scale-[1.3] hover:opacity-80"
         href="mailto:andreasjonsson00@gmail.com"
       >
         <img
@@ -24,7 +24,7 @@ const Socials = () => {
         />
       </a>
       <a
-        className="linkedin-link flex flex-col items-center transition transform hover:scale-130 hover:opacity-80 duration-200"
+        className="flex flex-col items-center transition duration-300 ease-out hover:scale-[1.3] hover:opacity-80"
         href="https://www.linkedin.com/in/andreas-jonsson-roslund"
         target="_blank"
       >
