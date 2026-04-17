@@ -1,8 +1,6 @@
 import React from "react";
 import profileImg from "../assets/profile-pic.jpeg";
-import githubImg from "../assets/github-mark.svg";
-import linkedinImg from "../assets/linkedin-mark.svg";
-import emailImg from "../assets/email-mark.png";
+import Socials from "./Socials";
 
 const Hero = () => {
   return (
@@ -31,36 +29,7 @@ const Hero = () => {
           className="w-50 rounded-full mb-2"
           alt="Andreas Jonsson Roslund"
         />
-        <nav className="social-links flex gap-4">
-          <a
-            className="github-link flex flex-col items-center"
-            href="https://github.com/Andreasjonsson00"
-            target="_blank"
-          >
-            <img
-              className="github-icon w-5"
-              src={githubImg}
-              alt="GitHub Icon"
-            />
-          </a>
-          <a
-            className="linkedin-link flex flex-col items-center"
-            href="https://www.linkedin.com/in/andreas-jonsson-roslund"
-            target="_blank"
-          >
-            <img
-              className="linkedin-icon w-5"
-              src={linkedinImg}
-              alt="LinkedIn Icon"
-            />
-          </a>
-          <a
-            className="email-link flex flex-col items-center"
-            href="mailto:andreasjonsson00@gmail.com"
-          >
-            <img className="email-icon w-5" src={emailImg} alt="Email Icon" />
-          </a>
-        </nav>
+        <Socials />
       </div>
     </section>
   );
