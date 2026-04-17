@@ -1,4 +1,5 @@
 import React from "react";
+import ProjectsCard from "./ProjectsCard";
 
 const projects = [
   {
@@ -26,35 +27,20 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section id="projects" className="px-6 py-16 mt-30">
+    <section id="projects" className="px-6 py-16 mt-5">
       <h2 className="text-3xl font-bold text-center mb-8 underline">
         Projects
       </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto border-b border-[#2e303a] pb-20">
         {projects.map((project, index) => (
-          <div
+          <ProjectsCard
             key={index}
-            className="bg-[#1a1a1a] p-6 rounded-xl shadow-md hover:scale-105 transition-transform duration-300"
-          >
-            <h3 className="text-xl font-semibold text-white mb-2">
-              {project.title}
-            </h3>
-
-            <p className="text-gray-400 mb-4">{project.description}</p>
-
-            <div className="flex flex-col items-center justify-between mt-4">
-              <p className="text-sm text-purple-800">{project.tech}</p>
-              <a
-                href={project.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-sm text-blue-400 hover:underline"
-              >
-                View Project →
-              </a>
-            </div>
-          </div>
+            title={project.title}
+            description={project.description}
+            tech={project.tech}
+            link={project.link}
+          />
         ))}
       </div>
     </section>

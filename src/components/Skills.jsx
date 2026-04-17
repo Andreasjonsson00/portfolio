@@ -2,7 +2,7 @@ import React from "react";
 
 const Skills = () => {
   return (
-    <section className="mt-15 px-4">
+    <section className="mt-5 px-4">
       <h2 className="text-2xl md:text-3xl font-bold text-center mb-8 underline">
         Tech
       </h2>
@@ -22,7 +22,7 @@ const Skills = () => {
         ].map((skill) => (
           <span
             key={skill}
-            className="bg-[#1a1a1a] text-sm px-4 py-2 rounded-lg border border-gray-700 hover:border-blue-700 transition"
+            className="bg-[#1a1a1a] text-sm px-4 py-2 rounded-lg border border-gray-700 hover:border-purple-700 transition"
           >
             {skill}
           </span>

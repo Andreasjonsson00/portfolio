@@ -3,7 +3,7 @@ import featuredImg from "../assets/featured-img.png";
 
 const Featured = () => {
   return (
-    <section id="featured" className="mt-30 px-4 scroll-mt-65">
+    <section id="featured" className="mt-5 px-4 scroll-mt-35">
       <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-10 border-b border-[#2e303a] pb-20">
         <div className="flex-1">
           <h2 className="text-2xl md:text-3xl font-bold mb-4 underline">
@@ -17,7 +17,7 @@ const Featured = () => {
             the ingredients you already have at home.
           </p>
 
-          <p className="text-sm text-purple-800">API • Bootstrap • Supabase</p>
+          <p className="text-sm text-purple-700">API • Bootstrap • Supabase</p>
 
           <div className="flex gap-4 mt-5 justify-center">
             <a
@@ -29,7 +29,7 @@ const Featured = () => {
 
             <a
               href="https://github.com/Andreasjonsson00/SmartMat"
-              className="border border-gray-600 px-4 py-2 rounded hover:border-blue-700 transition"
+              className="border border-gray-600 px-4 py-2 rounded hover:border-purple-700 transition"
             >
               GitHub
             </a>

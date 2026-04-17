@@ -12,10 +12,12 @@ const Hero = () => {
 
         <h1 className="text-left leading-none">FULLSTACK DEVELOPER</h1>
         <p className="description text-left">
-          !Description! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Consequatur eveniet nostrum, sapiente facere possimus, expedita sunt
-          delectus iste praesentium molestiae, beatae illo nam velit obcaecati
-          culpa consectetur dignissimos reiciendis !Description!
+          I’m a{" "}
+          <span className="text-purple-700 font-medium">fullstack developer</span>{" "}
+          focused on building clean, responsive, and user-friendly web
+          applications. I enjoy{" "}
+          <span className="italic">turning ideas into real products</span> using
+          modern technologies.
         </p>
         <a
           href="#projects"
