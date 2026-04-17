@@ -4,7 +4,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <header className="flex items-center justify-between p-5 border-b border-[#2e303a]">
-      <h2 className="ml-5">My Portfolio</h2>
+      <h2 className="ml-5">Portfolio</h2>
 
       <nav>
         <button
