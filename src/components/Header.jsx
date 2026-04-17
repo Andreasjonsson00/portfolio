@@ -17,7 +17,7 @@ const Header = () => {
             <a href="#contact" className="transition duration-200 hover:text-blue-700">Contact</a>
           </li>
           <li className="border border-[#2e303a] rounded px-2  transition duration-200 hover:border-blue-700">
-            <a href="#" className="transition duration-200 hover:text-blue-700">Download CV</a>
+            <a href="../../public/Andreas_Jonsson_Roslund_CV.pdf" className="transition duration-200 hover:text-blue-700">Download CV</a>
           </li>
         </ul>
       </nav>
