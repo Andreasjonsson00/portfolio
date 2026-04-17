@@ -1,5 +1,5 @@
 import React from "react";
-import featuredImg from "../assets/featured-img.png";
+import featuredImg from "../assets/featured-img.webp";
 
 const Featured = () => {
   return (
