@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="header flex items-center justify-between p-5 border-b border-[#2e303a]">
+    <header className="header flex items-center justify-between p-5 border-b border-[#2e303a]">
       <h2 className="ml-5">My Portfolio</h2>
 
       <nav className="">
@@ -24,7 +24,7 @@ const Header = () => {
           </li>
         </ul>
       </nav>
-    </div>
+    </header>
   );
 };
 
