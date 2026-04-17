@@ -45,7 +45,7 @@ const Header = () => {
           </li>
           <li className="border border-[#2e303a] rounded px-2 transition duration-200 hover:border-blue-700">
             <a
-              href="/Andreas_Jonsson_Roslund_CV.pdf"
+              href="../../public/Andreas_Jonsson_Roslund_CV.pdf"
               download
               className="transition duration-200 hover:text-blue-700"
             >
