@@ -15,7 +15,7 @@ const Contact = () => {
         <a href="tel:+46768323427">+46 76 832 34 27</a>
         <a
           href="mailto:andreasjonsson00@gmail.com"
-          className="text-purple-400 hover:underline mt-1 mb-3"
+          className="text-purple-800 hover:underline mt-1 mb-3"
         >
           andreasjonsson00@gmail.com
         </a>

@@ -3,8 +3,8 @@ import featuredImg from "../assets/featured-img.png";
 
 const Featured = () => {
   return (
-    <section className="mt-30 px-4">
-      <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-10">
+    <section id="featured" className="mt-30 px-4 scroll-mt-65">
+      <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-10 border-b border-[#2e303a] pb-20">
         <div className="flex-1">
           <h2 className="text-2xl md:text-3xl font-bold mb-4 underline">
             Featured Project
@@ -17,9 +17,7 @@ const Featured = () => {
             the ingredients you already have at home.
           </p>
 
-          <p className="text-sm text-purple-400">
-            React • API • Bootstrap • Database
-          </p>
+          <p className="text-sm text-purple-800">API • Bootstrap • Supabase</p>
 
           <div className="flex gap-4 mt-5 justify-center">
             <a

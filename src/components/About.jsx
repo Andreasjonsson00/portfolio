@@ -5,7 +5,7 @@ const About = () => {
     <section id="about" className="px-6 py-16">
       <h2 className="mt-10 text-3xl font-bold text-center underline">About Me</h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 mt-8 max-w-4xl mx-auto gap-8 text-center md:text-left">
+      <div className="grid grid-cols-1 md:grid-cols-2 mt-8 max-w-4xl mx-auto gap-8 text-center md:text-left border-b border-[#2e303a] pb-20">
         <p className="leading-relaxed">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
           reiciendis ipsa repellat nemo veniam exercitationem veritatis nobis

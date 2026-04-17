@@ -5,7 +5,7 @@ import emailImg from "../assets/email-mark.png";
 
 const Socials = () => {
   return (
-    <nav className="social-links flex gap-4">
+    <nav className="social-links flex gap-4 mt-3">
       <a
         className="github-link flex flex-col items-center transition transform hover:scale-130 hover:opacity-80 duration-200"
         href="https://github.com/Andreasjonsson00"

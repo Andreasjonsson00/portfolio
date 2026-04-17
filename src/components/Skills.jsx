@@ -7,7 +7,7 @@ const Skills = () => {
         Tech
       </h2>
 
-      <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-3 mb-16">
+      <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-3 mb-16 border-b border-[#2e303a] pb-20">
         {[
           "JavaScript",
           "React",

@@ -17,7 +17,8 @@ const projects = [
   },
   {
     title: "Todo App",
-    description: "A simple todo app with add/remove functionality. Add your tasks.",
+    description:
+      "A simple todo app with add/remove functionality. Add your tasks.",
     tech: "JavaScript, HTML, Bootstrap",
     link: "https://todo-app-lemon-nu-ah2g7g90cr.vercel.app",
   },
@@ -26,9 +27,11 @@ const projects = [
 const Projects = () => {
   return (
     <section id="projects" className="px-6 py-16 mt-30">
-      <h2 className="text-3xl font-bold text-center mb-8 underline">Projects</h2>
+      <h2 className="text-3xl font-bold text-center mb-8 underline">
+        Projects
+      </h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto border-b border-[#2e303a] pb-20">
         {projects.map((project, index) => (
           <div
             key={index}
@@ -41,7 +44,7 @@ const Projects = () => {
             <p className="text-gray-400 mb-4">{project.description}</p>
 
             <div className="flex flex-col items-center justify-between mt-4">
-              <p className="text-sm text-purple-400">{project.tech}</p>
+              <p className="text-sm text-purple-800">{project.tech}</p>
               <a
                 href={project.link}
                 target="_blank"
