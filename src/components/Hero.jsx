@@ -17,9 +17,12 @@ const Hero = () => {
           delectus iste praesentium molestiae, beatae illo nam velit obcaecati
           culpa consectetur dignissimos reiciendis !Description!
         </p>
-        <button className="bg-blue-800 text-white px-4 py-2 rounded mt-5 button-left">
+        <a
+          href="#projects"
+          className="bg-blue-900 px-4 py-2 rounded mt-5 button-left inline-block"
+        >
           View my projects
-        </button>
+        </a>
       </div>
 
       {/* Right side with profile image and social links */}

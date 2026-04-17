@@ -22,7 +22,7 @@ const Skills = () => {
         ].map((skill) => (
           <span
             key={skill}
-            className="bg-[#1a1a1a] text-sm px-4 py-2 rounded-lg border border-gray-700 hover:border-blue-500 transition"
+            className="bg-[#1a1a1a] text-sm px-4 py-2 rounded-lg border border-gray-700 hover:border-blue-700 transition"
           >
             {skill}
           </span>

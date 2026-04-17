@@ -8,19 +8,16 @@ const Header = () => {
       <nav className="">
         <ul className="flex gap-4">
           <li>
-            <a href="#home">Home</a>
+            <a href="#about" className="transition duration-200 hover:text-blue-700">About</a>
           </li>
           <li>
-            <a href="#about">About</a>
+            <a href="#projects" className="transition duration-200 hover:text-blue-700">Projects</a>
           </li>
           <li>
-            <a href="#contact">Projects</a>
+            <a href="#contact" className="transition duration-200 hover:text-blue-700">Contact</a>
           </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-          <li className="border border-[#2e303a] rounded px-3 py-1">
-            <a href="#contact">Download CV</a>
+          <li className="border border-[#2e303a] rounded px-2  transition duration-200 hover:border-blue-700">
+            <a href="#" className="transition duration-200 hover:text-blue-700">Download CV</a>
           </li>
         </ul>
       </nav>

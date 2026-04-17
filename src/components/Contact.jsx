@@ -3,7 +3,7 @@ import Socials from "./Socials";
 
 const Contact = () => {
   return (
-    <section className="mt-16 flex flex-col items-center text-center">
+    <section id="contact" className="mt-16 flex flex-col items-center text-center">
       <h2 className="text-2xl md:text-3xl font-bold mb-3">Get in Touch</h2>
 
       <p className="">
