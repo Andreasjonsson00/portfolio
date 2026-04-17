@@ -17,7 +17,11 @@ const Socials = () => {
         className="email-link flex flex-col items-center"
         href="mailto:andreasjonsson00@gmail.com"
       >
-        <img className="email-icon w-6 mt-0.5" src={emailImg} alt="Email Icon" />
+        <img
+          className="email-icon w-6 mt-0.5"
+          src={emailImg}
+          alt="Email Icon"
+        />
       </a>
       <a
         className="linkedin-link flex flex-col items-center"
