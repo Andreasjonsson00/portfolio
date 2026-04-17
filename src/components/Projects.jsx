@@ -6,21 +6,21 @@ const projects = [
     title: "Movie Database",
     description:
       "A web app that fetches and displays popular movies using an external API.",
-    tech: "JavaScript, API, CSS",
+    tech: "JavaScript • API • CSS",
     link: "https://movie-database-neon.vercel.app",
   },
   {
     title: "SmartMat",
     description:
       "Add your grocery items and the app will suggest recipes based on what you have.",
-    tech: "Bootstrap, API, Database",
+    tech: "Bootstrap • API • Database",
     link: "https://kunskapskontroll2.vercel.app",
   },
   {
     title: "Todo App",
     description:
       "A simple todo app with add/remove functionality. Add your tasks.",
-    tech: "JavaScript, HTML, Bootstrap",
+    tech: "JavaScript • HTML • Bootstrap",
     link: "https://todo-app-lemon-nu-ah2g7g90cr.vercel.app",
   },
 ];
