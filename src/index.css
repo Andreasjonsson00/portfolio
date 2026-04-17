@@ -4,6 +4,10 @@
   --sans: system-ui, "Segoe UI", Roboto, sans-serif;
   --heading: system-ui, "Segoe UI", Roboto, sans-serif;
   --mono: ui-monospace, Consolas, monospace;
+  --text: #cbd5e1;
+  --text-h: #1e40af;
+  --bg: #181b29;
+  --border: #2e303a;
 
   font: 18px/130% var(--sans);
   letter-spacing: 0.18px;
@@ -17,15 +21,6 @@
 
   @media (max-width: 1024px) {
     font-size: 16px;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --text: #cbd5e1;
-    --text-h: #1e40af;
-    --bg: #181b29;
-    --border: #2e303a;
   }
 }
 
