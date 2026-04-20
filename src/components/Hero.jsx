@@ -22,7 +22,7 @@ const Hero = () => {
           modern technologies.
         </p>
         <a
-          href="#projects"
+          href="#featured"
           className="bg-blue-900 px-4 py-2 rounded mt-5 inline-block hover:bg-blue-700 transition"
         >
           View my projects
