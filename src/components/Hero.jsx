@@ -5,7 +5,7 @@ import Socials from "./Socials";
 const Hero = () => {
   return (
     /* Left side with profile image and social links */
-    <section className="flex flex-col-reverse md:flex-row items-start justify-center md:gap-40 p-10 mt-10 border-b border-[#2e303a] pb-20">
+    <section className="flex flex-col-reverse md:flex-row items-start justify-center md:gap-40 p-10 mt-20 border-b border-[#2e303a] pb-20">
       <div className="flex flex-col items-start w-100">
         <p className="text-left ml-0.5">Hi, I am</p>
         <h2 className="text-left">Andreas Jonsson Roslund</h2>
