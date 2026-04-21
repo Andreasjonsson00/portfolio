@@ -23,7 +23,7 @@ const Hero = () => {
         </p>
         <a
           href="#featured"
-          className="bg-blue-900 px-4 py-2 rounded mt-5 inline-block hover:bg-blue-700 transition"
+          className="bg-blue-900 px-4 py-2 rounded mt-5 inline-block hover:bg-blue-700 transition duration-200"
         >
           View my projects
         </a>

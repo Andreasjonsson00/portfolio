@@ -22,14 +22,14 @@ const Featured = () => {
           <div className="flex gap-4 mt-5 justify-center">
             <a
               href="https://kunskapskontroll2.vercel.app"
-              className="bg-blue-900 px-4 py-2 rounded hover:bg-blue-700 transition"
+              className="bg-blue-900 px-4 py-2 rounded hover:bg-blue-700 transition duration-200"
             >
               Live Demo
             </a>
 
             <a
               href="https://github.com/Andreasjonsson00/SmartMat"
-              className="border border-gray-600 px-4 py-2 rounded hover:border-purple-700 transition"
+              className="border border-gray-600 px-4 py-2 rounded hover:border-purple-700 transition duration-200"
             >
               GitHub
             </a>
