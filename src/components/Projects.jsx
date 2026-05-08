@@ -3,6 +3,13 @@ import ProjectsCard from "./ProjectsCard";
 
 const projects = [
   {
+    title: "Pokémon App",
+    description:
+      "Add your favorite Pokémon, add your own nickname and view detailed information about them.",
+    tech: "React • API • Tailwind",
+    link: "https://pokemon-api-app-two.vercel.app/",
+  },
+  {
     title: "Movie Database",
     description:
       "A web app that fetches and displays popular movies using an external API.",
