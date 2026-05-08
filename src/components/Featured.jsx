@@ -22,7 +22,7 @@ const Featured = () => {
           <div className="flex gap-4 mt-5 justify-center">
             <a
               href="https://kunskapskontroll2.vercel.app"
-              className="bg-blue-900 px-4 py-2 rounded hover:bg-blue-700 transition duration-200"
+              className="bg-blue-800 px-4 py-2 rounded hover:bg-blue-700 transition duration-200"
             >
               Live Demo
             </a>
