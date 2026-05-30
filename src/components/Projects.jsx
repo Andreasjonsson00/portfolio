@@ -10,6 +10,13 @@ const projects = [
     link: "https://pokemon-api-app-two.vercel.app/",
   },
   {
+    title: "Receptsamlingen",
+    description:
+    "Create and add your favorite recipes. View detailed information about the recipes and share them with your friends.",
+    tech: "React • Node.js • Express • PostgreSQL",
+    link: "https://receptsamlingen-app.vercel.app",
+  },
+  {
     title: "Movie Database",
     description:
       "A web app that fetches and displays popular movies using an external API.",
