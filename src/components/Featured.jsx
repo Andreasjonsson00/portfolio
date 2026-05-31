@@ -10,11 +10,10 @@ const Featured = () => {
             Featured Project
           </h2>
 
-          <h3 className="text-xl font-semibold mb-2 text-white">SmartMat</h3>
+          <h3 className="text-xl font-semibold mb-2 text-white">Pokémon App</h3>
 
           <p className="text-gray-400 mb-4">
-            SmartMat helps you reduce food waste by suggesting recipes based on
-            the ingredients you already have at home.
+            Add your favorite Pokémon, add your own nickname and view detailed information about them.
           </p>
 
           <p className="text-sm text-purple-700">API • Bootstrap • Supabase</p>
@@ -39,7 +38,7 @@ const Featured = () => {
         <div className="flex-1">
           <div className="w-full h-60 bg-[#1a1a1a] rounded-xl flex items-center justify-center text-gray-500">
             <a
-              href="https://kunskapskontroll2.vercel.app"
+              href="https://pokemon-api-app-two.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
