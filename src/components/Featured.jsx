@@ -22,6 +22,7 @@ const Featured = () => {
             <a
               href="https://pokemon-api-app-two.vercel.app/"
               className="bg-blue-800 px-4 py-2 rounded hover:bg-blue-700 transition duration-200"
+              target="_blank"
             >
               Live Demo
             </a>
