@@ -5,8 +5,8 @@ const projects = [
   {
     title: "Pokémon App",
     description:
-      "Add your favorite Pokémon, add your own nickname and view detailed information about them.",
-    tech: "React • API • Tailwind",
+      "The app fetches and displays Pokémon along with their details using PokéAPI. You can add your favorite Pokémon and give them a nickname, saved with local storage and React state.",
+    tech: "React • VITE • REST API • Tailwind",
     link: "https://pokemon-api-app-two.vercel.app/",
   },
   // {
@@ -19,15 +19,15 @@ const projects = [
   {
     title: "Movie Database",
     description:
-      "A web app that fetches and displays popular movies using an external API.",
-    tech: "JavaScript • API • CSS",
+      "A web app that fetches and displays popular movies using The Movie Database API.",
+    tech: "JavaScript • REST API • CSS",
     link: "https://movie-database-neon.vercel.app",
   },
   {
     title: "SmartMat",
     description:
       "Add your grocery items and the app will suggest recipes based on what you have.",
-    tech: "Bootstrap • API • Database",
+    tech: "JavaScript •  REST API • Supabase • Bootstrap",
     link: "https://kunskapskontroll2.vercel.app",
   },
   {
