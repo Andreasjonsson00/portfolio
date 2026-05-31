@@ -16,7 +16,7 @@ const Featured = () => {
             Add your favorite Pokémon, add your own nickname and view detailed information about them.
           </p>
 
-          <p className="text-sm text-purple-700">API • Bootstrap • Supabase</p>
+          <p className="text-sm text-purple-700">React • VITE • REST API • Tailwind</p>
 
           <div className="flex gap-4 mt-5 justify-center">
             <a
