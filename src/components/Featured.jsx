@@ -28,7 +28,7 @@ const Featured = () => {
             </a>
 
             <a
-              href="https://github.com/Andreasjonsson00/SmartMat"
+              href="https://github.com/Andreasjonsson00/pokemon-api-app"
               className="border border-gray-600 px-4 py-2 rounded hover:border-purple-700 transition duration-200"
             >
               GitHub
