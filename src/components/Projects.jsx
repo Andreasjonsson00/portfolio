@@ -6,7 +6,7 @@ const projects = [
     title: "Pokémon App",
     description:
       "The app fetches and displays Pokémon along with their details using PokéAPI. You can add your favorite Pokémon and give them a nickname, saved with local storage and React state.",
-    tech: "React • VITE • REST API • Tailwind",
+    tech: "React • Vite • REST API • Tailwind",
     link: "https://pokemon-api-app-two.vercel.app/",
   },
   // {
@@ -36,6 +36,13 @@ const projects = [
       "A simple todo app with add/remove functionality. Add your tasks.",
     tech: "JavaScript • HTML • Bootstrap",
     link: "https://todo-app-lemon-nu-ah2g7g90cr.vercel.app",
+  },
+   {
+    title: "Företagssök",
+    description:
+      "A web application built with React and Express for searching Swedish companies through an external API.",
+    tech: "React • Vite • Express • REST API • CSS",
+    link: "https://rick-project.onrender.com/",
   },
 ];
 
