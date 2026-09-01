@@ -42,7 +42,7 @@ const projects = [
     description:
       "A web application built with React and Express for searching Swedish companies through an external API.",
     tech: "React • Vite • Express • REST API • CSS",
-    link: "https://rick-project.onrender.com/",
+    link: "https://company-search-project-5ne7.vercel.app/",
   },
 ];
 
