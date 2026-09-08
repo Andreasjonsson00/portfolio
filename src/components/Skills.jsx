@@ -27,6 +27,7 @@ const Skills = () => {
           "SQL",
           "Responsive Design",
           "Authentication",
+          "Docker",
         ].map((skill) => (
           <span
             key={skill}
