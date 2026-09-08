@@ -17,6 +17,16 @@ const Skills = () => {
           "GitHub",
           "REST API",
           "PostgreSQL",
+          "Supabase",
+          "Node.js",
+          "Express",
+          "Vite",
+          "Aiven",
+          "Vercel",
+          "PHP",
+          "SQL",
+          "Responsive Design",
+          "Authentication",
         ].map((skill) => (
           <span
             key={skill}

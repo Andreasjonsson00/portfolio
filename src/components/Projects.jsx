@@ -40,9 +40,16 @@ const projects = [
    {
     title: "Företagssök",
     description:
-      "A web application built with React and Express for searching Swedish companies through an external API.",
+      "A web application built with React and Express for searching Swedish companies through an external API, using a PFX certificate for secure API authentication.",
     tech: "React • Vite • Express • REST API • CSS",
-    link: "https://company-search-project-5ne7.vercel.app/",
+    link: "https://company-search-project-5ne7.vercel.app",
+  },
+   {
+    title: "Min e-handel",
+    description:
+      "Fullstack web application built with React and Express, backed by a PostgreSQL database. Users can browse products and add them to their cart after logging in. Admin users can add, edit, and delete products, as well as view all orders placed by users.",
+    tech: "React • Vite • Node.js • Express • PostgreSQL • Aiven • REST API • CSS",
+    link: "https://e-handel-proj-a8q5.vercel.app",
   },
 ];
 
