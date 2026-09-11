@@ -25,8 +25,6 @@ const Skills = () => {
           "Vercel",
           "PHP",
           "SQL",
-          "Responsive Design",
-          "Authentication",
           "Docker",
         ].map((skill) => (
           <span
