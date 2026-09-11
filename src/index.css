@@ -41,7 +41,8 @@ body {
 }
 
 h1,
-h2 {
+h2,
+li {
   font-weight: 900;
   color: var(--text-h);
 }
