@@ -7,6 +7,7 @@ My personal portfolio where I showcase my projects, skills, and growth as a full
 ## Built With
 
 - React
+- Vite
 - JavaScript
 - Tailwind CSS
 
