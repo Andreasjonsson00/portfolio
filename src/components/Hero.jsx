@@ -5,7 +5,10 @@ import Socials from "./Socials";
 const Hero = () => {
   return (
     /* Left side with profile image and social links */
-    <section id="home" className="flex flex-col-reverse md:flex-row items-start justify-center md:gap-40 p-10 mt-20 border-b border-[#2e303a] pb-20 scroll-mt-24">
+    <section
+      id="home"
+      className="flex flex-col-reverse md:flex-row items-start justify-center md:gap-40 p-10 mt-20 border-b border-[#2e303a] pb-20 scroll-mt-24"
+    >
       <div className="flex flex-col items-start w-100">
         <p className="text-left ml-0.5">Hi, I am</p>
         <h2 className="text-left">Andreas Jonsson Roslund</h2>
@@ -14,9 +17,9 @@ const Hero = () => {
         <p className="text-left">
           I’m a{" "}
           <span className="text-purple-700 font-medium">
-            fullstack developer
+            fullstack developer student
           </span>{" "}
-          focused on building clean, responsive, and user-friendly web
+          passionate about building clean, responsive, and user-friendly web
           applications. I enjoy{" "}
           <span className="italic">turning ideas into real products</span> using
           modern technologies.
