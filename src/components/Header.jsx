@@ -4,7 +4,9 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <header className="fixed top-0 left-0 w-full z-50 flex items-center justify-between p-5 border-b border-[#2e303a] bg-[#121212]/70 backdrop-blur-md">
-     <a href="#home" className="text-2xl font-bold ml-5">Portfolio</a>
+      <a href="#home">
+        <h2 className="ml-5">Portfolio</h2>
+      </a>
       <nav>
         <button
           className="md:hidden text-xl"
