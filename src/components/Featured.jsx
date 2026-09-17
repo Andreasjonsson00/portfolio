@@ -37,7 +37,7 @@ const Featured = () => {
         </div>
 
         <div className="flex-1">
-          <div className="w-full h-60 bg-[#1a1a1a] rounded-xl flex items-center justify-center text-gray-500">
+          <div className="w-full h-60 bg-[#141720] rounded-xl flex items-center justify-center text-gray-500">
             <a
               href="https://pokemon-api-app-two.vercel.app/"
               target="_blank"

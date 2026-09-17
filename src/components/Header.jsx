@@ -18,7 +18,7 @@ const Header = () => {
         <ul
           className={`${
             isOpen ? "flex" : "hidden"
-          } flex-col absolute top-16 right-5 bg-[#1a1a1a] p-4 rounded gap-4 md:flex md:flex-row md:static md:bg-transparent md:p-0`}
+          } flex-col absolute top-16 right-5 bg-[#141720] p-4 rounded gap-4 md:flex md:flex-row md:static md:bg-transparent md:p-0`}
         >
           <li>
             <a
