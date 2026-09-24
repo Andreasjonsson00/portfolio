@@ -13,7 +13,7 @@ const Hero = () => {
         <p className="text-left ml-0.5">Hej, jag heter</p>
         <h2 className="text-left">Andreas Jonsson Roslund</h2>
 
-        <h1 className="text-left leading-none">FULLSTACK-UTVECKLARE</h1>
+        <h1 className="text-left leading-none">FULLSTACK DEVELOPER STUDENT</h1>
         <p className="text-left">
           Jag studerar till{" "}
           <span className="text-purple-700 font-medium">
@@ -25,8 +25,10 @@ const Hero = () => {
           tekniker.
         </p>
         <p className="text-left mt-3">
-          Jag söker  <span className="text-purple-700 font-medium">praktik</span> under två LIA-perioder: {<br />} LIA 1: 4 januari – 12 mars
-          2027 och{<br />} LIA 2: 26 april – 11 juni 2027.
+          Jag söker <span className="text-purple-700 font-medium">praktik</span>{" "}
+          under två LIA-perioder: {<br />}{" "}
+          <em>LIA 1: 4 januari – 12 mars 2027</em> {<br />}{" "}
+          <em>LIA 2: 26 april – 11 juni 2027</em>
         </p>
         <a
           href="#featured"

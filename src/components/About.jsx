@@ -41,12 +41,13 @@ const About = () => {
           <br />
           <br />
           Just nu söker jag{" "}
-          <span className="text-purple-700 font-medium">
-            LIA-praktik
-          </span>{" "}
-          under två perioder:{<br />} LIA 1: 4 januari–12 mars 2027 och LIA 2: 26
-          april–11 juni 2027. Där hoppas jag kunna utvecklas som utvecklare och lära av mer
-          erfarna utvecklare och bidra i riktiga projekt.
+          <span className="text-purple-700 font-medium">LIA-praktik</span> under
+          två perioder:{<br />}{" "}
+          <em>
+            LIA 1: 4 januari – 12 mars 2027 och LIA 2: 26 april – 11 juni 2027.
+          </em>{" "}
+          Där hoppas jag kunna utvecklas som utvecklare och lära av mer erfarna
+          utvecklare och bidra i riktiga projekt.
         </p>
       </div>
     </section>

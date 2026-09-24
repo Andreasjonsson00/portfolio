@@ -9,6 +9,13 @@ const projects = [
     tech: "React • Vite • REST API • Tailwind",
     link: "https://pokemon-api-app-two.vercel.app/",
   },
+  {
+   title: "Min e-handel",
+   description:
+     "En fullstack-webbapplikation byggd med React och Express, med PostgreSQL-databas. Användare kan bläddra bland produkter och lägga dem i varukorgen efter inloggning. Administratörer kan lägga till, redigera och ta bort produkter samt se alla beställningar.",
+   tech: "React • Vite • Node.js • Express • PostgreSQL • Aiven • REST API • CSS",
+   link: "https://e-handel-proj-a8q5.vercel.app",
+ },
   // {
   //   title: "Receptsamlingen",
   //   description:
@@ -26,12 +33,12 @@ const projects = [
   {
     title: "SmartMat",
     description:
-      "Lägg till dina matvaror så föreslår appen recept utifrån det du har hemma.",
+      "Gruppuppgift: Lägg till dina matvaror så föreslår appen recept utifrån det du har hemma.",
     tech: "JavaScript •  REST API • Supabase • Bootstrap",
     link: "https://kunskapskontroll2.vercel.app",
   },
   {
-    title: "Att göra-app",
+    title: "Todo App",
     description:
       "En enkel att göra-app där du kan lägga till och ta bort uppgifter.",
     tech: "JavaScript • HTML • Bootstrap",
@@ -43,13 +50,6 @@ const projects = [
       "En webbapplikation byggd med React och Express för att söka svenska företag via ett externt API, med PFX-certifikat för säker API-autentisering.",
     tech: "React • Vite • Express • REST API • CSS",
     link: "https://company-search-project-5ne7.vercel.app",
-  },
-   {
-    title: "Min e-handel",
-    description:
-      "En fullstack-webbapplikation byggd med React och Express, med PostgreSQL-databas. Användare kan bläddra bland produkter och lägga dem i varukorgen efter inloggning. Administratörer kan lägga till, redigera och ta bort produkter samt se alla beställningar.",
-    tech: "React • Vite • Node.js • Express • PostgreSQL • Aiven • REST API • CSS",
-    link: "https://e-handel-proj-a8q5.vercel.app",
   },
 ];
 
