@@ -39,7 +39,7 @@ const Hero = () => {
       </div>
 
       {/* Right side with profile image and social links */}
-      <div className="flex flex-col items-center md:items-center md:mr-5 mb-10 md:mb-0">
+      <div className="flex flex-col items-center self-center md:self-auto md:mr-5 mb-10 md:mb-0">
         <div className="p-1 rounded-full bg-linear-to-r  from-purple-800 to-blue-800 items-center">
           <img
             src={profileImg}
