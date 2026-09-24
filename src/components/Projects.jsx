@@ -13,7 +13,7 @@ const projects = [
     title: "Min e-handel",
     description:
       "En fullstack-webbapplikation byggd med React och Express, med PostgreSQL-databas. Användare kan bläddra bland produkter och lägga dem i varukorgen efter inloggning. Administratörer kan lägga till, redigera och ta bort produkter samt se alla beställningar.",
-    tech: "React • Vite • Node.js • Express • PostgreSQL • Aiven • REST API • CSS",
+    tech: "React • Express • PostgreSQL • REST API",
     link: "https://e-handel-proj-a8q5.vercel.app",
   },
   {
