@@ -10,25 +10,11 @@ const projects = [
     link: "https://pokemon-api-app-two.vercel.app/",
   },
   {
-   title: "Min e-handel",
-   description:
-     "En fullstack-webbapplikation byggd med React och Express, med PostgreSQL-databas. Användare kan bläddra bland produkter och lägga dem i varukorgen efter inloggning. Administratörer kan lägga till, redigera och ta bort produkter samt se alla beställningar.",
-   tech: "React • Vite • Node.js • Express • PostgreSQL • Aiven • REST API • CSS",
-   link: "https://e-handel-proj-a8q5.vercel.app",
- },
-  // {
-  //   title: "Receptsamlingen",
-  //   description:
-  //   "Create and add your favorite recipes. View detailed information about the recipes and share them with your friends.",
-  //   tech: "React • Node.js • Express • PostgreSQL",
-  //   link: "https://receptsamlingen-app.vercel.app",
-  // },
-  {
-    title: "Filmdatabas",
+    title: "Min e-handel",
     description:
-      "En webbapplikation som hämtar och visar populära filmer med The Movie Database API.",
-    tech: "JavaScript • REST API • CSS",
-    link: "https://movie-database-neon.vercel.app",
+      "En fullstack-webbapplikation byggd med React och Express, med PostgreSQL-databas. Användare kan bläddra bland produkter och lägga dem i varukorgen efter inloggning. Administratörer kan lägga till, redigera och ta bort produkter samt se alla beställningar.",
+    tech: "React • Vite • Node.js • Express • PostgreSQL • Aiven • REST API • CSS",
+    link: "https://e-handel-proj-a8q5.vercel.app",
   },
   {
     title: "SmartMat",
@@ -38,19 +24,33 @@ const projects = [
     link: "https://kunskapskontroll2.vercel.app",
   },
   {
-    title: "Todo App",
-    description:
-      "En enkel att göra-app där du kan lägga till och ta bort uppgifter.",
-    tech: "JavaScript • HTML • Bootstrap",
-    link: "https://todo-app-lemon-nu-ah2g7g90cr.vercel.app",
-  },
-   {
     title: "Företagssök",
     description:
-      "En webbapplikation byggd med React och Express för att söka svenska företag via ett externt API, med PFX-certifikat för säker API-autentisering.",
+    "En webbapplikation byggd med React och Express för att söka svenska företag via ett externt API, med PFX-certifikat för säker API-autentisering.",
     tech: "React • Vite • Express • REST API • CSS",
     link: "https://company-search-project-5ne7.vercel.app",
   },
+  {
+    title: "Filmdatabas",
+    description:
+    "En webbapplikation som hämtar och visar populära filmer med The Movie Database API.",
+    tech: "JavaScript • REST API • CSS",
+    link: "https://movie-database-neon.vercel.app",
+  },
+  {
+    title: "Todo App",
+    description:
+    "En enkel att göra-app där du kan lägga till och ta bort uppgifter.",
+    tech: "JavaScript • HTML • Bootstrap",
+    link: "https://todo-app-lemon-nu-ah2g7g90cr.vercel.app",
+  },
+  // {
+  //   title: "Receptsamlingen",
+  //   description:
+  //   "Create and add your favorite recipes. View detailed information about the recipes and share them with your friends.",
+  //   tech: "React • Node.js • Express • PostgreSQL",
+  //   link: "https://receptsamlingen-app.vercel.app",
+  // },
 ];
 
 const Projects = () => {
