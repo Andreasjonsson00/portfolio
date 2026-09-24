@@ -7,13 +7,14 @@ const Featured = () => {
       <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-10 border-b border-[#2e303a] pb-20">
         <div className="flex-1">
           <h2 className="text-2xl md:text-3xl font-bold mb-4">
-            Featured Project
+            Utvalt projekt
           </h2>
 
           <h3 className="text-xl font-semibold mb-2 text-white">Pokémon App</h3>
 
           <p className="text-gray-400 mb-4">
-            Add your favorite Pokémon, add your own nickname and view detailed information about them.
+            Lägg till dina favorit-Pokémon, ge dem egna smeknamn och se
+            detaljerad information om dem.
           </p>
 
           <p className="text-sm text-purple-700">React • VITE • REST API • Tailwind</p>
@@ -24,7 +25,7 @@ const Featured = () => {
               className="bg-blue-800 px-4 py-2 rounded hover:bg-blue-700 transition duration-200"
               target="_blank"
             >
-              Live Demo
+              Se projektet
             </a>
 
             <a
@@ -45,7 +46,7 @@ const Featured = () => {
             >
               <img
                 src={featuredImg}
-                alt="Featured Project"
+                alt="Utvalt projekt"
                 className="rounded-xl transition duration-300 hover:scale-102 hover:opacity-90"
               />
             </a>

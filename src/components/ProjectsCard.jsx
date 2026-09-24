@@ -15,7 +15,7 @@ const ProjectsCard = ({ title, description, tech, link }) => {
           rel="noopener noreferrer"
           className="text-sm text-blue-600 hover:underline"
         >
-          View Project →
+          Se projekt →
         </a>
       </div>
     </div>

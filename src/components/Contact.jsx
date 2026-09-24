@@ -7,13 +7,13 @@ const Contact = () => {
       id="contact"
       className="mt-5 flex flex-col items-center text-center"
     >
-      <h2 className="text-2xl md:text-3xl font-bold mb-8">
-        Get in Touch
+      <h2 className="text-2xl md:text-3xl font-bold mb-4">
+        Kontakta mig
       </h2>
 
       <p className="font-medium">
-        Feel free to reach out if you want to collaborate, have a question, or
-        just want to connect.
+        Hör gärna av dig om du vill samarbeta, har en fråga eller bara vill ta
+        kontakt.
       </p>
 
       <div className="flex flex-col items-center max-w-md mt-2 mb-20">

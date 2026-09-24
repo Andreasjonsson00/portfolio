@@ -10,25 +10,29 @@ const Hero = () => {
       className="flex flex-col-reverse md:flex-row items-start justify-center md:gap-40 p-10 mt-20 border-b border-[#2e303a] pb-20 scroll-mt-24"
     >
       <div className="flex flex-col items-start w-100">
-        <p className="text-left ml-0.5">Hi, I am</p>
+        <p className="text-left ml-0.5">Hej, jag heter</p>
         <h2 className="text-left">Andreas Jonsson Roslund</h2>
 
-        <h1 className="text-left leading-none">FULLSTACK DEVELOPER</h1>
+        <h1 className="text-left leading-none">FULLSTACK-UTVECKLARE</h1>
         <p className="text-left">
-          I’m a{" "}
+          Jag studerar till{" "}
           <span className="text-purple-700 font-medium">
-            fullstack developer student
+            fullstack-utvecklare
           </span>{" "}
-          passionate about building clean, responsive, and user-friendly web
-          applications. I enjoy{" "}
-          <span className="italic">turning ideas into real products</span> using
-          modern technologies.
+          och brinner för att skapa rena, responsiva och användarvänliga
+          webbapplikationer. Jag tycker om att{" "}
+          <span className="italic">förverkliga idéer</span> med moderna
+          tekniker.
+        </p>
+        <p className="text-left mt-3">
+          Jag söker  <span className="text-purple-700 font-medium">praktik</span> under två LIA-perioder: {<br />} LIA 1: 4 januari – 12 mars
+          2027 och{<br />} LIA 2: 26 april – 11 juni 2027.
         </p>
         <a
           href="#featured"
           className="bg-blue-800 px-4 py-2 rounded mt-5 inline-block hover:bg-blue-700 transition duration-200"
         >
-          View my projects
+          Se mina projekt
         </a>
       </div>
 

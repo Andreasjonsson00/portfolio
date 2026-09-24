@@ -3,50 +3,50 @@ import React from "react";
 const About = () => {
   return (
     <section id="about" className="px-6 py-16 scroll-mt-10">
-      <h2 className="mt-5 text-3xl font-bold text-center">About Me</h2>
+      <h2 className="mt-5 text-3xl font-bold text-center">Om mig</h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 mt-8 max-w-4xl mx-auto gap-8 text-center md:text-left border-b border-[#2e303a] pb-20">
         <p className="leading-relaxed">
-          I enjoy building web applications from both the{" "}
+          Jag tycker om att bygga webbapplikationer med både{" "}
           <span className="text-purple-700 font-medium">
-            frontend and backend
+            frontend och backend
           </span>{" "}
-          and I’m especially interested in how different parts of an application
-          work together. I like taking an idea and turning it into something
-          functional, while making sure the application is easy to use and
-          understand.
+          och är särskilt intresserad av hur en applikations olika delar
+          samspelar. Jag gillar att ta en idé och göra den till något
+          fungerande, samtidigt som applikationen är enkel att använda och
+          förstå.
           <br />
           <br />
-          I’ve worked with technologies such as{" "}
+          Jag har arbetat med tekniker som{" "}
           <span className="text-purple-700 font-medium">
             React, TypeScript, Node.js, PHP
           </span>{" "}
-          and <span className="text-purple-700 font-medium">SQL</span>. Through
-          different projects, I’ve gained experience working with APIs,
-          databases, user interfaces, and backend functionality. These projects
-          have helped me understand how the different layers of a web
-          application connect and communicate with each other.
+          och <span className="text-purple-700 font-medium">SQL</span>. Genom
+          olika projekt har jag fått erfarenhet av API:er, databaser,
+          användargränssnitt och backendfunktionalitet. Projekten har gett mig
+          en förståelse för hur en webbapplikations olika lager kopplas samman
+          och kommunicerar med varandra.
         </p>
 
         <p className="leading-relaxed">
-          My focus is on writing{" "}
+          Mitt fokus är att skriva{" "}
           <span className="text-purple-700 font-medium">
-            clean and maintainable code
+            ren och underhållbar kod
           </span>{" "}
-          while creating responsive designs that work well across different
-          devices. I enjoy solving problems and figuring out why something isn’t
-          working, whether it’s a frontend issue, a backend problem, or
-          something involving data. I also enjoy learning new technologies and
-          finding better ways to approach the projects I work on.
+          och samtidigt skapa responsiva designer som fungerar väl på olika
+          enheter. Jag gillar att lösa problem och ta reda på varför något inte
+          fungerar, oavsett om det gäller frontend, backend eller data. Jag
+          tycker också om att lära mig nya tekniker och hitta bättre sätt att
+          arbeta med mina projekt.
           <br />
           <br />
-          Right now, I’m looking to{" "}
+          Just nu söker jag{" "}
           <span className="text-purple-700 font-medium">
-            grow as a developer
+            LIA-praktik
           </span>{" "}
-          and gain experience working in a professional development team. I’m
-          motivated to learn from more experienced developers and contribute to
-          real projects.
+          under två perioder:{<br />} LIA 1: 4 januari–12 mars 2027 och LIA 2: 26
+          april–11 juni 2027. Där hoppas jag kunna utvecklas som utvecklare och lära av mer
+          erfarna utvecklare och bidra i riktiga projekt.
         </p>
       </div>
     </section>
