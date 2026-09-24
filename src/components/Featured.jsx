@@ -12,7 +12,7 @@ const Featured = () => {
 
           <h3 className="text-xl font-semibold mb-2 text-white">Pokémon App</h3>
 
-          <p className="text-gray-400 mb-4">
+          <p className="text-gray-400 mb-4 px-3">
             Lägg till dina favorit-Pokémon, ge dem egna smeknamn och se
             detaljerad information om dem.
           </p>

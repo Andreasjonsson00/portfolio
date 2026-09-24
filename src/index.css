@@ -60,3 +60,25 @@ h2 {
   line-height: 118%;
   letter-spacing: -0.24px;
 }
+
+@keyframes about-enter {
+  from {
+    opacity: 0;
+    transform: translateY(28px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.about-enter {
+  animation: about-enter 700ms ease-out both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .about-enter {
+    animation: none;
+  }
+}
