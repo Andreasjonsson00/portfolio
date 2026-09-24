@@ -7,7 +7,7 @@ const Hero = () => {
     /* Left side with profile image and social links */
     <section
       id="home"
-      className="flex flex-col-reverse md:flex-row items-start justify-center md:gap-40 px-10 py-10 mt-20 border-b border-[#2e303a] pb-20 scroll-mt-24"
+      className="flex flex-col-reverse md:flex-row items-start justify-start md:justify-center md:gap-40 px-10 py-10 mt-20 border-b border-[#2e303a] pb-20 scroll-mt-24"
     >
       <div className="flex flex-col items-start w-full md:w-100">
         <p className="text-left ml-0.5">Hej, jag heter</p>
@@ -39,7 +39,7 @@ const Hero = () => {
       </div>
 
       {/* Right side with profile image and social links */}
-      <div className="flex flex-col items-center mx-auto md:mx-0 md:mr-5 mb-10 md:mb-0">
+      <div className="flex flex-col items-start md:items-center md:mr-5 mb-10 md:mb-0">
         <div className="p-1 rounded-full bg-linear-to-r  from-purple-800 to-blue-800">
           <img
             src={profileImg}

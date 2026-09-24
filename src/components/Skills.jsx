@@ -2,10 +2,10 @@ import React from "react";
 
 const Skills = () => {
   return (
-    <section className="px-4">
-      <h2 className="text-2xl md:text-3xl font-bold text-center mb-8">Kompetenser</h2>
+    <section className="px-10">
+      <h2 className="text-2xl md:text-3xl font-bold text-left md:text-center mb-8">Kompetenser</h2>
 
-      <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-3 border-b border-[#2e303a] pb-20">
+      <div className="max-w-4xl md:mx-auto flex flex-wrap justify-start md:justify-center gap-3 border-b border-[#2e303a] pb-20">
         {[
           "JavaScript",
           "React",

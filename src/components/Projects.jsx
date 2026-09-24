@@ -55,12 +55,12 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section id="projects" className="px-6 py-16">
-      <h2 className="text-3xl font-bold text-center mb-8">
+    <section id="projects" className="px-10 py-16">
+      <h2 className="text-3xl font-bold text-left md:text-center mb-8">
         Projekt
       </h2>
 
-      <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto border-b border-[#2e303a] pb-20">
+      <div className="grid md:grid-cols-3 gap-8 max-w-6xl md:mx-auto border-b border-[#2e303a] pb-20">
         {projects.map((project, index) => (
           <ProjectsCard
             key={index}

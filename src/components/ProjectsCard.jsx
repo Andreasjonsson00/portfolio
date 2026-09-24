@@ -7,7 +7,7 @@ const ProjectsCard = ({ title, description, tech, link }) => {
 
       <p className="text-gray-400 mb-4">{description}</p>
 
-      <div className="mt-auto flex flex-col items-center gap-2 pt-4">
+      <div className="mt-auto flex flex-col items-start md:items-center gap-2 pt-4">
         <p className="text-sm text-purple-700">{tech}</p>
         <a
           href={link}

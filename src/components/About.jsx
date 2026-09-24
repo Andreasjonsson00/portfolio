@@ -10,7 +10,7 @@ const About = () => {
         Om mig
       </h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 mt-8 max-w-4xl mx-auto gap-8 text-left border-b border-[#2e303a] pb-20">
+      <div className="grid grid-cols-1 md:grid-cols-2 mt-8 max-w-4xl md:mx-auto gap-8 text-left border-b border-[#2e303a] pb-20">
         <p className="leading-relaxed">
           Jag tycker om att bygga webbapplikationer med både{" "}
           <span className="text-purple-700 font-medium">

@@ -16,7 +16,7 @@ const Contact = () => {
         kontakt.
       </p>
 
-      <div className="flex flex-col max-w-md mt-2 mb-20 md:items-center">
+      <div className="flex flex-col max-w-md mt-2 mb-20 items-start md:items-center">
         <a href="tel:+46768323427">+46 76 832 34 27</a>
         <a
           href="mailto:andreasjonsson00@gmail.com"

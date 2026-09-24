@@ -11,7 +11,7 @@
 
   max-width: 100%;
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
   border-inline: 1px solid var(--border);
   min-height: 100svh;
   display: flex;
@@ -31,6 +31,10 @@
 
   @media (max-width: 1024px) {
     font-size: 16px;
+  }
+
+  @media (min-width: 768px) {
+    text-align: center;
   }
 }
 
