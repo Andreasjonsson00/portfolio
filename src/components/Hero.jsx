@@ -9,7 +9,7 @@ const Hero = () => {
       id="home"
       className="flex flex-col-reverse md:flex-row items-start justify-center md:gap-40 px-10 py-10 mt-20 border-b border-[#2e303a] pb-20 scroll-mt-24"
     >
-      <div className="flex flex-col items-start w-100">
+      <div className="flex flex-col items-start w-full">
         <p className="text-left ml-0.5">Hej, jag heter</p>
         <h2 className="text-left">Andreas Jonsson Roslund</h2>
 
