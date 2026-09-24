@@ -3,7 +3,9 @@ import React from "react";
 const About = () => {
   return (
     <section id="about" className="px-10 py-16 scroll-mt-10">
-      <h2 className="mt-5 text-3xl font-bold text-left md:text-center">Om mig</h2>
+      <h2 className="mt-5 text-3xl font-bold text-left md:text-center">
+        Om mig
+      </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 mt-8 max-w-4xl mx-auto gap-8 text-left border-b border-[#2e303a] pb-20">
         <p className="leading-relaxed">
@@ -42,10 +44,12 @@ const About = () => {
           <br />
           Just nu söker jag{" "}
           <span className="text-purple-700 font-medium">LIA-praktik</span> under
-          två perioder:{<br />}{" "}
+          två perioder:
           <em>
-            LIA 1: 4 januari – 12 mars 2027 och LIA 2: 26 april – 11 juni 2027.
-          </em>{" "}
+            {" "}
+            LIA 1: 4 januari – 12 mars 2027 och LIA 2: 26 april – 11 juni
+            2027.{" "}
+          </em>
           Där hoppas jag kunna utvecklas som utvecklare och lära av mer erfarna
           utvecklare och bidra i riktiga projekt.
         </p>
