@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="flex flex-col items-center text- center px-8"
+      className="flex flex-col items-center text- center px-10"
     >
       <h2 className="text-2xl md:text-3xl font-bold mb-4">
         Kontakta mig
