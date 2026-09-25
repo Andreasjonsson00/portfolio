@@ -29,7 +29,7 @@ const projects = [
   {
     title: "Community Forum",
     description:
-      "A community forum where users can create groups, join discussions, and interact with other members. Built with PHP and MySQL, with user authentication and group management.",
+      "Ett communityforum där användare kan skapa grupper, delta i diskussioner och interagera med andra medlemmar. Byggt med PHP och MySQL, med användarautentisering och funktioner för grupphantering.",
     tech: "PHP • MySQL • HTML • CSS",
     livedemo: "http://community-forum.gamer.gd/",
     github: "https://github.com/Andreasjonsson00/community-forum-php",
