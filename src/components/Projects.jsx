@@ -37,7 +37,7 @@ const projects = [
   {
     title: "SmartMat - Gruppuppgift",
     description:
-      "Lägg till dina matvaror så föreslår appen recept utifrån det du har hemma. (Gruppuppgift)",
+      "Lägg till dina matvaror så föreslår appen recept utifrån det du har hemma.",
     tech: "JavaScript •  REST API • Supabase • Bootstrap",
     livedemo: "https://kunskapskontroll2.vercel.app",
     github: "https://github.com/Andreasjonsson00/SmartMat",
