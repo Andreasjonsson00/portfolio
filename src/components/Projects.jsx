@@ -7,7 +7,7 @@ const projects = [
     description:
       "En fullstack-webbapplikation byggd med React och Express, med PostgreSQL-databas. Användare kan registrera sig, logga in, prenumerera för att låsa upp olika programmeringskurser med lektioner och quiz. Administratörer kan lägga till och ta bort kurser samt lektioner.",
     tech: "TypeScript • Express • PostgreSQL • REST API",
-    livedemo: "https://github.com/DanielPallin/group-assignment",
+    livedemo: "https://codeunified-group-project.vercel.app/",
     github: "https://github.com/DanielPallin/group-assignment",
   },
   {
