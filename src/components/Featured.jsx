@@ -4,7 +4,7 @@ import featuredImg from "../assets/featured-img.webp";
 const Featured = () => {
   return (
     <section id="featured" className="mt-15 px-10 scroll-mt-30">
-      <div className="max-w-5xl md:mx-auto flex flex-col md:flex-row items-start md:items-center gap-10 border-b border-[#2e303a] pb-20">
+      <div className="max-w-6xl md:mx-auto flex flex-col md:flex-row items-start md:items-center gap-10 border-b border-[#2e303a] pb-20">
         <div className="flex-1">
           <h2 className="text-2xl md:text-3xl font-bold mb-4">
             Utvalt projekt

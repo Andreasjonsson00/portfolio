@@ -5,7 +5,7 @@ const Skills = () => {
     <section className="px-10">
       <h2 className="text-2xl md:text-3xl font-bold text-left md:text-center mb-8">Kompetenser</h2>
 
-      <div className="max-w-4xl md:mx-auto flex flex-wrap justify-start md:justify-center gap-3 border-b border-[#2e303a] pb-20">
+      <div className="max-w-6xl md:mx-auto flex flex-wrap justify-start md:justify-center gap-3 border-b border-[#2e303a] pb-20">
         {[
           "JavaScript",
           "React",
@@ -21,11 +21,15 @@ const Skills = () => {
           "Node.js",
           "Express",
           "Vite",
-          "Aiven",
           "Vercel",
           "PHP",
-          "SQL",
+          "MySQL",
           "Docker",
+          "TypeScript",
+          "Postman",
+          "Aiven",
+          "GitHub Actions",
+          "Responsiv Design",
         ].map((skill) => (
           <span
             key={skill}
