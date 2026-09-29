@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <header className="fixed top-0 left-0 w-full z-50 flex items-center justify-between p-5 border-b border-[#2e303a] bg-[#121212]/70 backdrop-blur-md">
+    <header className="fixed top-0 left-0 w-full z-50 flex items-center justify-between p-5 border-b border-[#2e303a] bg-[#0b111c]/60 backdrop-blur-md">
       <a href="#home">
         <h2 className="ml-5">Portfolio</h2>
       </a>
