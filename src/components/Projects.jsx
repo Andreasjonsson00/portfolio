@@ -3,7 +3,7 @@ import ProjectsCard from "./ProjectsCard";
 
 const projects = [
   {
-    title: "Codeunified - Pågående gruppuppgift",
+    title: "CodeUnified - Gruppuppgift",
     description:
       "En fullstack-webbapplikation byggd med React och Express, med PostgreSQL-databas. Användare kan registrera sig, logga in, prenumerera för att låsa upp olika programmeringskurser med lektioner och quiz. Administratörer kan lägga till och ta bort kurser samt lektioner.",
     tech: "TypeScript • Express • PostgreSQL • REST API",
