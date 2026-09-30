@@ -17,7 +17,7 @@ const Featured = () => {
             detaljerad information om dem.
           </p>
 
-          <p className="text-sm text-purple-700">React • VITE • REST API • Tailwind</p>
+          <p className="text-sm text-purple-400">React • VITE • REST API • Tailwind</p>
 
           <div className="flex gap-4 mt-5 justify-start md:justify-center">
             <a

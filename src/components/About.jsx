@@ -13,7 +13,7 @@ const About = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 mt-8 max-w-6xl md:mx-auto gap-8 text-left border-b border-[#2e303a] pb-20">
         <p className="leading-relaxed">
           Jag tycker om att bygga webbapplikationer med både{" "}
-          <span className="text-purple-700 font-medium">
+          <span className="text-blue-400 font-medium">
             frontend och backend
           </span>{" "}
           och är särskilt intresserad av hur en applikations olika delar
@@ -23,10 +23,10 @@ const About = () => {
           <br />
           <br />
           Jag har arbetat med tekniker som{" "}
-          <span className="text-purple-700 font-medium">
+          <span className="text-blue-400 font-medium">
             React, TypeScript, Node.js, PHP
           </span>{" "}
-          och <span className="text-purple-700 font-medium">SQL</span>. Genom
+          och <span className="text-blue-400 font-medium">SQL</span>. Genom
           olika projekt har jag fått erfarenhet av API:er, databaser,
           användargränssnitt och backendfunktionalitet. Projekten har gett mig
           en förståelse för hur en webbapplikations olika lager kopplas samman
@@ -35,7 +35,7 @@ const About = () => {
 
         <p className="leading-relaxed">
           Mitt fokus är att skriva{" "}
-          <span className="text-purple-700 font-medium">
+          <span className="text-blue-400 font-medium">
             ren och underhållbar kod
           </span>{" "}
           och samtidigt skapa responsiva designer som fungerar väl på olika
@@ -46,7 +46,7 @@ const About = () => {
           <br />
           <br />
           Just nu söker jag{" "}
-          <span className="text-purple-700 font-medium">LIA-praktik</span> under
+          <span className="text-blue-400 font-medium">LIA-praktik</span> under
           två perioder:
           <em>
             {" "}

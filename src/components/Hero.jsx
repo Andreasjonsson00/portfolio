@@ -16,7 +16,7 @@ const Hero = () => {
         <h1 className="text-left leading-none">FULLSTACK DEVELOPER STUDENT</h1>
         <p className="text-left">
           Jag studerar till{" "}
-          <span className="text-purple-700 font-medium">
+          <span className="text-blue-400 font-medium">
             fullstack-utvecklare
           </span>{" "}
           och brinner för att skapa rena, responsiva och användarvänliga
@@ -25,7 +25,7 @@ const Hero = () => {
           tekniker.
         </p>
         <p className="text-left mt-3">
-          Jag söker <span className="text-purple-700 font-medium">praktik</span>{" "}
+          Jag söker <span className="text-blue-400 font-medium">praktik</span>{" "}
           under två LIA-perioder: {<br />}{" "}
           <em>LIA 1: 4 januari – 12 mars 2027</em> {<br />}{" "}
           <em>LIA 2: 26 april – 11 juni 2027</em>

@@ -8,12 +8,12 @@ const ProjectsCard = ({ title, description, tech, livedemo, github }) => {
       <p className="text-gray-400 mb-4">{description}</p>
 
       <div className="mt-auto flex flex-col items-start md:items-center gap-2 pt-4">
-        <p className="text-sm text-purple-700">{tech}</p>
+        <p className="text-sm text-purple-400">{tech}</p>
         <a
           href={livedemo}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-sm text-blue-600 hover:underline"
+          className="text-sm text-blue-400 hover:underline"
         >
           Live Demo →
         </a>
@@ -21,7 +21,7 @@ const ProjectsCard = ({ title, description, tech, livedemo, github }) => {
           href={github}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-sm text-blue-600 hover:underline"
+          className="text-sm text-blue-400 hover:underline"
         >
           GitHub →
         </a>

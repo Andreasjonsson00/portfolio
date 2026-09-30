@@ -23,7 +23,7 @@ const Header = () => {
           <li>
             <a
               href="#about"
-              className="transition duration-200 hover:text-blue-700"
+              className="transition duration-200 hover:text-blue-400"
             >
               Om mig
             </a>
@@ -31,7 +31,7 @@ const Header = () => {
           <li>
             <a
               href="#featured"
-              className="transition duration-200 hover:text-blue-700"
+              className="transition duration-200 hover:text-blue-400"
             >
               Projekt
             </a>
@@ -39,16 +39,16 @@ const Header = () => {
           <li>
             <a
               href="#contact"
-              className="transition duration-200 hover:text-blue-700"
+              className="transition duration-200 hover:text-blue-400"
             >
               Kontakt
             </a>
           </li>
-          <li className="border border-[#2e303a] rounded px-2 transition duration-200 hover:border-blue-700">
+          <li className="border border-[#2e303a] rounded px-2 transition duration-200 hover:border-blue-400">
             <a
               href="/cv.pdf"
               download
-              className="transition duration-200 hover:text-blue-700"
+              className="transition duration-200 hover:text-blue-400"
             >
               Ladda ner CV
             </a>
