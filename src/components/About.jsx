@@ -2,10 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <section
-      id="about"
-      className="about-enter px-10 py-16 scroll-mt-10"
-    >
+    <section id="about" className="about-enter px-10 py-16 scroll-mt-10">
       <h2 className="mt-5 text-3xl font-bold text-left md:text-center">
         Om mig
       </h2>
@@ -50,10 +47,11 @@ const About = () => {
           två perioder:
           <em>
             {" "}
-            LIA 1: 4 januari – 12 mars 2027 och LIA 2: 26 april – 11 juni
-            2027.{" "}
+            LIA 1: 4 januari–12 mars 2027 och LIA 2: 26 april–11 juni 2027.
+            Därefter har jag sommaruppehåll 12 juni–8 augusti, med fortsättning
+            9 augusti–1 oktober 2027.{" "}
           </em>
-          Där hoppas jag kunna utvecklas som utvecklare och lära av mer erfarna
+          Där hoppas jag kunna utvecklas som utvecklare, lära mig av mer erfarna
           utvecklare och bidra i riktiga projekt.
         </p>
       </div>

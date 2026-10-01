@@ -26,9 +26,11 @@ const Hero = () => {
         </p>
         <p className="text-left mt-3">
           Jag söker <span className="text-blue-400 font-medium">praktik</span>{" "}
-          under två LIA-perioder: {<br />}{" "}
-          <em>LIA 1: 4 januari – 12 mars 2027</em> {<br />}{" "}
-          <em>LIA 2: 26 april – 11 juni 2027</em>
+          under två LIA-perioder: {<br />}
+          <em>LIA 1: 4 januari – 12 mars 2027</em> {<br />}
+          <em>LIA 2: 26 april – 11 juni 2027</em> {<br />}
+          Sommaruppehåll: 12 juni – 8 augusti 2027 {<br />}
+          <em>LIA 2 fortsättning: 9 augusti – 1 oktober 2027</em>
         </p>
         <a
           href="#featured"
